@@ -11,6 +11,10 @@ public class InteractiveManager : MonoBehaviour
     public Image wrong;
     public TMP_Text correct;
     public TMP_Text incorrect;
+    public Image bunnyhappy;
+    public Image bunnysad;
+    public AudioSource audioright;
+    public AudioSource audiowrong;
     int randomNumber = 0;
 
     [System.Obsolete]
@@ -21,6 +25,12 @@ public class InteractiveManager : MonoBehaviour
         correct.enabled = false;
         wrong.enabled = false;
         incorrect.enabled = false;
+        bunnyhappy.enabled = false;
+        bunnysad.enabled = false;
+        audioright.enabled = false;
+        audiowrong.enabled = false;
+
+
 
         if (randomNumber % 3 == 0)
         {
@@ -56,12 +66,16 @@ public class InteractiveManager : MonoBehaviour
     {
         right.enabled = true;
         correct.enabled = true;
+        bunnyhappy.enabled = true;
+        audioright.enabled = true;
     }
 
     void Wrong()
     {
         wrong.enabled = true;
         incorrect.enabled = true;
+        bunnysad.enabled = true;
+        audiowrong.enabled = true;
     }
 
     [System.Obsolete]
@@ -75,9 +89,14 @@ public class InteractiveManager : MonoBehaviour
             correct.enabled = false;
             wrong.enabled = false;
             incorrect.enabled = false;
+            bunnyhappy.enabled = false;
+            bunnysad.enabled = false;
+            audioright.enabled = false;
+            audiowrong.enabled = false;
+
         }
 
-        if(Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             Debug.Log("left - Fizz");
             if(randomNumber % 3 == 0)
