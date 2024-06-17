@@ -25,3 +25,48 @@ _Tester: 8 Jährige, 49 Jährige und 50 Jähriger_
 
 Die Fizz Buzz App wurde insgesamt positiv bewertet, insbesondere die Benutzerfreundlichkeit und das klare Feedback im Spiel wurden hervorgehoben. Die Anweisungen und Hinweise im Spiel wurden ebenfalls als hilfreich empfunden. Allen Testern hat das Spiel gut gefallen und sie fanden es sehr unterhaltsam, troz verschiedener Altersgruppen. Insgesamt gibt es keine Berichte über Fehler oder Abstürze, was auf eine stabile App hinweist.
 Diese Analyse zeigt, dass die Fizz Buzz App sowohl für junge als auch ältere Nutzer geeignet ist und effektiv dabei hilft, die Multiplikationsreihen von 3 und 5 zu üben.
+
+
+```mermaid
+classDiagram
+
+    class InteractiveManager {
+        + randomNbr: TMP_Text
+        + right: Image
+        + wrong: Image
+        + correct: TMP_Text
+        + incorrect: TMP_Text
+        + bunnyhappy: Image
+        + bunnysad: Image
+        + audioright: AudioSource
+        + audiowrong: AudioSource
+        - randomNumber: int
+
+        [System.Obsolete] + Start() void
+        [System.Obsolete] + GenerateNumber() void
+        + Right() void
+        + Wrong() void
+        [System.Obsolete] + Update() void
+    }
+
+    class TMP_Text
+    class Image
+    class AudioSource
+    class MonoBehaviour
+
+    InteractiveManager --|> MonoBehaviour
+    InteractiveManager <|-- TMP_Text : randomNbr
+    InteractiveManager <|-- Image : right
+    InteractiveManager <|-- Image : wrong
+    InteractiveManager <|-- TMP_Text : correct
+    InteractiveManager <|-- TMP_Text : incorrect
+    InteractiveManager <|-- Image : bunnyhappy
+    InteractiveManager <|-- Image : bunnysad
+    InteractiveManager <|-- AudioSource : audioright
+    InteractiveManager <|-- AudioSource : audiowrong
+    
+
+    TMP_Text : string text
+    Image : bool enabled
+    AudioSource : bool enabled
+    ```
