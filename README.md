@@ -17,3 +17,9 @@ Wenn die Zahl durch 3 UND durch 5 teilbar ist, drückt er die obere Pfeiltaste f
 Wenn die Zahl durch nicht durch 3 oder 5 teilbar ist drückt er die untere Pfeiltaste (Apfel berühren bei Makey Makey)
 Nun wird dem Spieler gesagt ob er „Correct“ oder „Incorrect“ geantwortet hat.
 Mit der space Taste (Wasser berühren bei Makey Makey) kann der Spieler jetzt eine neue Zahl generieren die ihm direkt angezeigt wird.  
+
+Analyse Fragebogen:
+
+Tester: 8 Jährige, 49 Jährige und 50 Jähriger
+Die Fizz Buzz App wurde insgesamt positiv bewertet, insbesondere die Benutzerfreundlichkeit und das klare Feedback im Spiel wurden hervorgehoben. Die Anweisungen und Hinweise im Spiel wurden ebenfalls als hilfreich empfunden. Unterschiede zeigten sich im wahrgenommenen Unterhaltungs- und Herausforderungsgrad, was auf die unterschiedlichen Altersgruppen der Tester zurückzuführen ist. Insgesamt gibt es keine Berichte über Fehler oder Abstürze, was auf eine stabile App hinweist.
+Diese Analyse zeigt, dass die Fizz Buzz App sowohl für junge als auch ältere Nutzer geeignet ist und effektiv dabei hilft, die Multiplikationsreihen von 3 und 5 zu üben.
