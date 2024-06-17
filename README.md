@@ -11,9 +11,9 @@ Ziel ist es spielerisch die Rechenregeln zu lernen und klar zu erkennen ob die  
 
 Spielanleitung:
 
-Nach dem Start des Spieles, überlegt sich der Spieler die richtige Antwort. Wenn die Zahl durch 3 teilbar ist, drückt er die linke Pfeiltaste für Fizz (bei Makey Makey).
-Wenn die Zahl durch 5 teilbar ist, drückt er die rechte Pfeiltaste für Buzz (bei Makey Makey).
-Wenn die Zahl durch 3 UND durch 5 teilbar ist, drückt er die obere Pfeiltaste für FizzBuzz (bei Makey Makey).
-Wenn die Zahl durch nicht durch 3 oder 5 teilbar ist drückt er die untere Pfeiltaste (bei Makey Makey)
+Nach dem Start des Spieles, überlegt sich der Spieler die richtige Antwort. Wenn die Zahl durch 3 teilbar ist, drückt er die linke Pfeiltaste für Fizz (Löffel berühren bei Makey Makey).
+Wenn die Zahl durch 5 teilbar ist, drückt er die rechte Pfeiltaste für Buzz (Gabel berühren bei Makey Makey).
+Wenn die Zahl durch 3 UND durch 5 teilbar ist, drückt er die obere Pfeiltaste für FizzBuzz (Orange berühren bei Makey Makey).
+Wenn die Zahl durch nicht durch 3 oder 5 teilbar ist drückt er die untere Pfeiltaste (Apfel berühren bei Makey Makey)
 Nun wird dem Spieler gesagt ob er „Correct“ oder „Incorrect“ geantwortet hat.
-Mit der space Taste (bei Makey Makey) kann der Spieler jetzt eine neue Zahl generieren die ihm direkt angezeigt wird.  
+Mit der space Taste (Wasser berühren bei Makey Makey) kann der Spieler jetzt eine neue Zahl generieren die ihm direkt angezeigt wird.  
