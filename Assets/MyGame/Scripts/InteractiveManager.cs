@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 public class InteractiveManager : MonoBehaviour
 {
@@ -17,8 +15,7 @@ public class InteractiveManager : MonoBehaviour
     public AudioSource audiowrong;
     int randomNumber = 0;
 
-    [System.Obsolete]
-    void Start()
+    private void Start()
     {
         GenerateNumber();
         right.enabled = false;
@@ -29,7 +26,6 @@ public class InteractiveManager : MonoBehaviour
         bunnysad.enabled = false;
         audioright.enabled = false;
         audiowrong.enabled = false;
-
 
 
         if (randomNumber % 3 == 0)
@@ -54,15 +50,14 @@ public class InteractiveManager : MonoBehaviour
 
     }
 
-    [System.Obsolete]
-    void GenerateNumber()
+    private void GenerateNumber()
     { 
-        randomNumber = Random.RandomRange(0, 1001);
+        randomNumber = Random.Range(0, 1001);
         string randomString = randomNumber.ToString();
         randomNbr.text = randomString;
     }
 
-    void Right()
+    private void Right()
     {
         right.enabled = true;
         correct.enabled = true;
@@ -70,7 +65,7 @@ public class InteractiveManager : MonoBehaviour
         audioright.enabled = true;
     }
 
-    void Wrong()
+    private void Wrong()
     {
         wrong.enabled = true;
         incorrect.enabled = true;
@@ -78,8 +73,7 @@ public class InteractiveManager : MonoBehaviour
         audiowrong.enabled = true;
     }
 
-    [System.Obsolete]
-    void Update()
+    private void Update()
     {
         if(Input.GetKeyDown(KeyCode.Space))
         {
@@ -111,7 +105,7 @@ public class InteractiveManager : MonoBehaviour
 
         }
 
-        if(Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             Debug.Log("right - Buzz");
             if (randomNumber % 5 == 0)
