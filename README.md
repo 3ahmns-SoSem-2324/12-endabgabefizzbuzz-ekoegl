@@ -21,7 +21,7 @@ Mit der space Taste (Wasser berühren bei Makey Makey) kann der Spieler jetzt ei
 
 ### Analyse Fragebogen:
 
-Tester: 8 Jährige, 49 Jährige und 50 Jähriger
+_Tester: 8 Jährige, 49 Jährige und 50 Jähriger_
 
 Die Fizz Buzz App wurde insgesamt positiv bewertet, insbesondere die Benutzerfreundlichkeit und das klare Feedback im Spiel wurden hervorgehoben. Die Anweisungen und Hinweise im Spiel wurden ebenfalls als hilfreich empfunden. Allen Testern hat das Spiel gut gefallen und sie fanden es sehr unterhaltsam, troz verschiedener Altersgruppen. Insgesamt gibt es keine Berichte über Fehler oder Abstürze, was auf eine stabile App hinweist.
 Diese Analyse zeigt, dass die Fizz Buzz App sowohl für junge als auch ältere Nutzer geeignet ist und effektiv dabei hilft, die Multiplikationsreihen von 3 und 5 zu üben.
