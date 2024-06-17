@@ -15,6 +15,7 @@ public class InteractiveManager : MonoBehaviour
     public AudioSource audiowrong;
     int randomNumber = 0;
 
+
     private void Start()
     {
         GenerateNumber();
